@@ -32,7 +32,64 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+<!-- بداية الشريط العلوي للمصاحف -->
+<style>
+  .top-quran-nav {
+    background-color: #1e293b;
+    padding: 10px 15px;
+    display: flex;
+    gap: 8px;
+    overflow-x: auto;
+    white-space: nowrap;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+    direction: rtl;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    -webkit-overflow-scrolling: touch;
+  }
+  .top-quran-nav a {
+    color: #f8fafc;
+    text-decoration: none;
+    padding: 6px 14px;
+    background-color: #334155;
+    border-radius: 6px;
+    font-size: 14px;
+    font-family: system-ui, -apple-system, sans-serif;
+    font-weight: 500;
+    transition: all 0.2s ease;
+  }
+  .top-quran-nav a:hover {
+    background-color: #0284c7;
+    color: #ffffff;
+  }
+  .top-quran-nav::-webkit-scrollbar {
+    height: 4px;
+  }
+  .top-quran-nav::-webkit-scrollbar-thumb {
+    background: #475569;
+    border-radius: 4px;
+  }
+</style>
 
+<nav class="top-quran-nav">
+  <a href="https://1.10.com.ly">المصحف 1</a>
+  <a href="https://2.10.com.ly">المصحف 2</a>
+  <a href="https://3.10.com.ly">المصحف 3</a>
+  <a href="https://4.10.com.ly">المصحف 4</a>
+  <a href="https://5.10.com.ly">المصحف 5</a>
+  <a href="https://6.10.com.ly">المصحف 6</a>
+  <a href="https://7.10.com.ly">المصحف 7</a>
+  <a href="https://8.10.com.ly">المصحف 8</a>
+  <a href="https://9.10.com.ly">المصحف 9</a>
+  <a href="https://10.10.com.ly">المصحف 10</a>
+</nav>
+<!-- نهاية الشريط العلوي للمصاحف -->
+
+
+
+
+    
     <style>
         body { font-size: 18px; font-family: 'Cairo', sans-serif; transition: background-color 0.4s ease, color 0.4s ease; -webkit-tap-highlight-color: transparent; margin: 0; padding: 0; }
         .title-font { font-family: 'Amiri', serif; }
@@ -1908,59 +1965,7 @@
 
         window.onload = init;
     </script>
-<!-- بداية الشريط العلوي للمصاحف -->
-<style>
-  .top-quran-nav {
-    background-color: #1e293b;
-    padding: 10px 15px;
-    display: flex;
-    gap: 8px;
-    overflow-x: auto;
-    white-space: nowrap;
-    position: sticky;
-    top: 0;
-    z-index: 9999;
-    direction: rtl;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
-    -webkit-overflow-scrolling: touch;
-  }
-  .top-quran-nav a {
-    color: #f8fafc;
-    text-decoration: none;
-    padding: 6px 14px;
-    background-color: #334155;
-    border-radius: 6px;
-    font-size: 14px;
-    font-family: system-ui, -apple-system, sans-serif;
-    font-weight: 500;
-    transition: all 0.2s ease;
-  }
-  .top-quran-nav a:hover {
-    background-color: #0284c7;
-    color: #ffffff;
-  }
-  .top-quran-nav::-webkit-scrollbar {
-    height: 4px;
-  }
-  .top-quran-nav::-webkit-scrollbar-thumb {
-    background: #475569;
-    border-radius: 4px;
-  }
-</style>
 
-<nav class="top-quran-nav">
-  <a href="https://1.10.com.ly">المصحف 1</a>
-  <a href="https://2.10.com.ly">المصحف 2</a>
-  <a href="https://3.10.com.ly">المصحف 3</a>
-  <a href="https://4.10.com.ly">المصحف 4</a>
-  <a href="https://5.10.com.ly">المصحف 5</a>
-  <a href="https://6.10.com.ly">المصحف 6</a>
-  <a href="https://7.10.com.ly">المصحف 7</a>
-  <a href="https://8.10.com.ly">المصحف 8</a>
-  <a href="https://9.10.com.ly">المصحف 9</a>
-  <a href="https://10.10.com.ly">المصحف 10</a>
-</nav>
-<!-- نهاية الشريط العلوي للمصاحف -->
     
 </body>
 </html>
